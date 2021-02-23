@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: accesstest
+  description: accesstest
+  annotations:
+    github.com/project-slug: dump/dump
+    backstage.io/techdocs-ref: url:DmitriyKhirniy/accesstest
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"
